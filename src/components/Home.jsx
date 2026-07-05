@@ -12,6 +12,10 @@ function Home() {
         setfirst(first-a)
     }
 
+    const noMul = (a)=>{
+      setfirst(first*a)
+    }
+
 
 
 
@@ -32,6 +36,12 @@ function Home() {
 
       <button onClick={(e)=>{
         noSub(5)
+      }} className="m-4 p-2 w-[150px] bg-pink-700 rounded-full text-white text-2xl">
+        Minus 5
+      </button>
+
+      <button onClick={(e)=>{
+        noMul(5)
       }} className="m-4 p-2 w-[150px] bg-pink-700 rounded-full text-white text-2xl">
         Minus 5
       </button>
